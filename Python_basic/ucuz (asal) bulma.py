@@ -3,8 +3,8 @@ def asal(sayi):
     while sayac <sayi //2 +1:
         if sayi % sayac == 0:
             return False
-            sayac += 1
-        return True
+        sayac += 1
+    return True
 
 
 def ucuz_sayi(sayi):
@@ -17,4 +17,4 @@ def ucuz_sayi(sayi):
         print("gonderilen sayi asal sayi degildir")
 
 if __name__ == "__main__":
-    ucuz_sayi(17)
+    ucuz_sayi(45)
